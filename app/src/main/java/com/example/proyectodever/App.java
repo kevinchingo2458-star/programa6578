@@ -28,7 +28,7 @@ public class App {
                  // proseso para convertir de grados a sentigrados o al contrario  
 
                 case 3:
-                  
+                  // proseso para calcular el area de un triangulo
 
                 case 4:
                     System.out.println("Saliendo del programa...");
