@@ -4,11 +4,31 @@
 package com.example.proyectodever;
 
 public class App {
-    public String getGreeting() {
-        return "Hello World!";
-    }
-
+   
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+
+          Scanner sc = new Scanner(System.in); 
+         //Encontrar el número mayor entre 3 números
+        
+        System.out.println("ingrese el primer numero: ");
+        
+        int n1 = sc.nextInt();
+        
+        System.out.println("ingrese el segundo numero: ");
+        
+        int n2 = sc.nextInt();
+        
+        System.out.println("ingrese el tercer  numero: ");
+        
+        int n3 = sc.nextInt();
+        int mayor;
+        if (n1 >= n2 && n1 >= n3) {
+            mayor = n1;
+        } else if (n2 >= n1 && n2 >= n3) {
+            mayor = n2;
+        } else {
+            mayor = n3;
+        }
+        System.out.println("El numero mayor es: " + mayor);  
     }
 }
