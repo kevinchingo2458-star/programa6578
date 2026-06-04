@@ -34,7 +34,7 @@ public class App {
                     break;
 
                 default:
-                 
+                 System.out.println("Opcion invalida. Intenta de nuevo.");
             }
         } while (opcion != 4);
 
