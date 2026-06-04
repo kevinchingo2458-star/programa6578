@@ -10,7 +10,7 @@ public class App {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int opcion;
-
+        //menu principal 
         do {
             System.out.println("\n=== MENU PRINCIPAL ===");
             System.out.println("1. Calcular promedio de 3 notas");
