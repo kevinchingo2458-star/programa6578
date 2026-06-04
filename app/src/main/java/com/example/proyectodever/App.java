@@ -6,6 +6,7 @@ package com.example.proyectodever;
 import java.util.Scanner;
 
 public class App {
+    //parte de michael
      // Metodo para convertir de Celsius a Fahrenheit
     public static double celsiusAFahrenheit(double celsius) {
         return (celsius * 9.0 / 5.0) + 32;
@@ -32,7 +33,7 @@ public class App {
             switch (opcion) {
                 case 1:
                  // proseso para calcular el promedio de 3 notas 
-                  
+                 // parte de michael 
                 case 2:
                  // proseso para convertir de grados a sentigrados o al contrario  
                     System.out.println("\n--- Conversion de Temperatura ---");
