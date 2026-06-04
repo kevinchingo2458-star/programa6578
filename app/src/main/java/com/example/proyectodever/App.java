@@ -33,8 +33,9 @@ public class App {
             switch (opcion) {
                 case 1:
                  // proseso para calcular el promedio de 3 notas 
-                 // parte de michael 
+                
                 case 2:
+                     // parte de michael 
                  // proseso para convertir de grados a sentigrados o al contrario  
                     System.out.println("\n--- Conversion de Temperatura ---");
                     System.out.println("a) Convertir de Celsius a Fahrenheit");
