@@ -22,9 +22,10 @@ public class App {
 
             switch (opcion) {
                 case 1:
+                 // proseso para calcular el promedio de 3 notas 
                   
                 case 2:
-                   
+                 // proseso para convertir de grados a sentigrados o al contrario  
 
                 case 3:
                   
